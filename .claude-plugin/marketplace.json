@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-study-skill-marketplace",
+  "description": "视频/音频学习资料整理工具集 — 从视频提取音频、语音转文字、生成学习笔记与总结报告，到人性化审查的一站式学习辅助工具",
+  "owner": {
+    "name": "leo"
+  },
+  "plugins": [
+    {
+      "name": "agent-study-skill",
+      "description": "从视频/音频中提取学习内容，自动生成学习笔记与总结报告。流水线：视频提取音频 → ASR 转文字 → 生成笔记+报告 → Agent 人性化审查。",
+      "version": "0.1.0",
+      "author": {
+        "name": "leo"
+      },
+      "source": "./plugins/agent-study-skill",
+      "category": "learning",
+      "keywords": ["study", "video", "speech-recognition", "note-taking", "learning"],
+      "homepage": "https://github.com/leo/agent-study-skill"
+    }
+  ]
+}

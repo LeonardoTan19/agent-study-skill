@@ -1,0 +1,9 @@
+{
+  "name": "agent-study-skill",
+  "version": "0.1.0",
+  "description": "从视频/音频中提取学习内容，自动生成学习笔记与总结报告。流水线：视频提取音频 → ASR 转文字 → 生成笔记+报告 → Agent 人性化审查。",
+  "author": {
+    "name": "leo"
+  },
+  "keywords": ["study", "video", "speech-recognition", "note-taking", "learning"]
+}
